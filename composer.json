@@ -1,0 +1,22 @@
+{
+  "name": "vistarsvo/yii2-shellexec",
+  "description": "Yii2 ShellExec Component",
+  "keywords": ["yii2", "shell", "shell_exec", "console run"],
+  "type": "yii2-component",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vistar",
+      "email": "vistar.svo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "yiisoft/yii2": "^2.0",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "yiisoft/yii2-swiftmailer": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": { "Vistar\\ShellExec\\": "" }
+  }
+}
